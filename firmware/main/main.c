@@ -53,7 +53,7 @@
 
 // Update rate (stored internally as milliseconds)
 #define DEFAULT_UPDATE_RATE_MS      30000
-#define MIN_UPDATE_RATE_MS          50
+#define MIN_UPDATE_RATE_MS          250
 #define MAX_UPDATE_RATE_MS          600000
 
 // Temperature cluster uses 0.01C units, 0x8000 = invalid
