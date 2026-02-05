@@ -1,0 +1,22 @@
+# ESP-IDF build output
+firmware/build/
+
+# ESP-IDF managed components (fetched by idf.py)
+firmware/managed_components/
+
+# Generated sdkconfig (keep sdkconfig.defaults as the source of truth)
+firmware/sdkconfig
+
+# Dependencies lock (regenerated from idf_component.yml)
+firmware/dependencies.lock
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
